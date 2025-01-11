@@ -1,0 +1,7 @@
+nav{
+    background: rgb(245,46,49);
+    background: radial-gradient(circle, rgba(245,46,49,1) 0%, rgba(251,127,173,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

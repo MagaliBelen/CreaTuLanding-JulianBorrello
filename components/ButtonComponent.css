@@ -1,0 +1,16 @@
+button{
+    background: none;
+    border: none;
+    color: white;
+    transition: transform 0.3s ease; 
+    margin: 10px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover{
+    text-decoration: underline;
+    transform: scale(1.2); 
+}
