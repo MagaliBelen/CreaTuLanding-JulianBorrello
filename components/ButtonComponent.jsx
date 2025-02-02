@@ -3,7 +3,7 @@ import './ButtonComponent.css'
 export default function ButtonComponent({texto}){
     return(
         <>
-        <button>{texto}</button>
+        <button className='buttonNav'>{texto}</button>
         </>
     );
 }

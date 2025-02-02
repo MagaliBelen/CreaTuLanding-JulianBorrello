@@ -1,10 +1,10 @@
-img{
+.logo{
 width:6em;
 transition: transform 0.3s ease; 
 padding: 10px;
 cursor: pointer;
 }
 
-img:hover{
+.logo:hover{
     transform: scale(1.2); 
 }

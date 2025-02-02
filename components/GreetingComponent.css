@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.texto-encima {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+    background: linear-gradient(45deg, rgba(245,46,49,1) 0%, rgba(251,127,173,1) 100%);
+    background-size: 200% 200%; /* Duplica el tamaño del fondo */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+    transition: background-position 0.5s ease; /* Transición suave del fondo */
+    position: absolute;
+    top: 40%; /* Ajusta la posición vertical */
+    left: 5%; /* Ajusta la posición horizontal */
+    font-family: "Pacifico", serif;
+}
+
+.texto-encima:hover {
+    background-position: 100% 0; /* Mueve el degradé hacia la derecha */
+}
+
+.hero-container {
+    position: relative;
+    display: inline-block; /* Para que el contenedor se ajuste a la imagen */
+}
+
+.imagenHero {
+    width: 100%; /* Ajusta según necesites */
+    height: auto;
+    display: block;
+}
+
+
 h1 {
     font-size: 25px;
     text-align: center;

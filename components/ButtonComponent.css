@@ -1,16 +1,20 @@
-button{
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+.buttonNav{
     background: none;
     border: none;
     color: white;
     transition: transform 0.3s ease; 
     margin: 10px;
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-family: "Pacifico", serif;
     font-size: 17px;
-    font-weight: 600;
+    font-weight:100;
     cursor: pointer;
+    font-size: 24px;
 }
 
-button:hover{
+.buttonNav:hover{
     text-decoration: underline;
     transform: scale(1.2); 
 }
