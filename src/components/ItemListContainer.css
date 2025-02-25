@@ -1,0 +1,22 @@
+.products {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas bajen cuando no hay espacio */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espacio entre las tarjetas */
+    padding: 20px;
+}
+
+.loading{
+    text-align: center;
+    font-size: 18px;
+    color: rgba(251,127,173,1);
+    font-weight: bold;
+}
+
+@media (max-width: 500px) { 
+    .loading{
+       
+        font-size: 15px;
+
+    }
+}

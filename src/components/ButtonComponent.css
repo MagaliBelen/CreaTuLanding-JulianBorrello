@@ -8,13 +8,21 @@
     transition: transform 0.3s ease; 
     margin: 10px;
     font-family: "Pacifico", serif;
-    font-size: 17px;
     font-weight:100;
     cursor: pointer;
     font-size: 24px;
 }
 
 .buttonNav:hover{
-    text-decoration: underline;
-    transform: scale(1.2); 
+    text-decoration: none;
+    transform: scale(1.2);
+    
+}
+
+@media (max-width: 480px) { 
+    .buttonNav {
+        font-size: 12px; /* Reduce el tamaño del texto */
+        margin: 4px; /* Ajusta el margen */
+        font-weight:80;
+    }
 }

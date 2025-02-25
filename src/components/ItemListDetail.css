@@ -31,18 +31,35 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    flex-direction: column;
+  }
+
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+  }
+
+  .quantity-controls button{
+    width: 30px;
+    height: auto;
+    font-size: 18px;
   }
   
   .counter button {
-    width: 30px;
-    height: 30px;
-    font-size: 18px;
+  
+  
     cursor: pointer;
     border: none;
     background-color:  rgba(251,127,173,1); 
     color: white;
     border-radius: 5px;
     font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .counter button:hover {
@@ -67,6 +84,7 @@
     cursor: pointer;
     text-align: center;
     text-decoration: none;
+    font-size: 16px;
   }
 
   .buttonAgregar:hover {
@@ -83,3 +101,16 @@
 
   }
   
+  @media (max-width: 480px) { 
+    .detail {
+        width: 90%; /* Reduce el ancho para que no desborde en pantallas pequeñas */
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+      align-items: start;
+    }
+}

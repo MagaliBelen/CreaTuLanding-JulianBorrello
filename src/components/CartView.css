@@ -1,0 +1,146 @@
+
+.cart-view {
+    padding: 20px;
+  }
+
+  .cart-view h2{
+    margin-bottom:20px;
+    margin-left: 35px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .cart-item-image {
+    width: 120px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .cart-item-info {
+    flex: 1;
+  }
+  
+  .cart-item-info > *{
+        margin-bottom: 10px;
+  }
+
+  button{
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .buttonContinueBuying{
+    background-color: rgb(110, 167, 233);
+ 
+  }
+
+  .buttons{
+    display: flex;
+    gap: 20px;
+  }
+
+  .buttonClean{
+    background-color: #f00;
+    
+ 
+  }
+
+  .buttonFinalize{
+    background-color: rgb(48, 179, 59);
+
+ 
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+
+  .total
+  {
+    margin-left: 35px;
+
+  }
+
+  .total > *{
+    margin-top: 15px;
+  }
+
+  .mensajeCarritoVacio{
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .resumen-compra > *{
+    margin-top:20px;
+  }
+  .checkout-form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .checkout-form {
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    width: 100%;
+  
+  }
+  
+  .checkout-form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .checkout-form label {
+    display: block;
+    margin: 10px 0;
+    width: 90%;
+  }
+  
+  .checkout-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .buttonsCheckout{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .mensajeExito{
+    text-align: center;
+
+  }
+
+  .mensajeExito > *{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  @media (max-width: 480px) { 
+    
+  .checkout-form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+}

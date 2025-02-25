@@ -14,6 +14,7 @@
     top: 40%; /* Ajusta la posición vertical */
     left: 5%; /* Ajusta la posición horizontal */
     font-family: "Pacifico", serif;
+    padding: 5px;
 }
 
 .texto-encima:hover {
@@ -46,4 +47,41 @@ h1 {
 
 h1:hover {
     background-position: 100% 0; /* Mueve el degradé hacia la derecha */
+}
+
+
+@media (max-width: 900px) { 
+    .texto-encima {
+        font-size: 25px; /* Reduce el tamaño del texto */
+        top: 30%; /* Ajusta la posición vertical */
+        left: 2%; /* Ajusta la posición horizontal */
+        padding: 2px;
+    }
+
+
+}
+
+@media (max-width: 700px) { 
+    .texto-encima {
+        font-size: 16px; /* Reduce el tamaño del texto */
+        top: 30%; /* Ajusta la posición vertical */
+        left: 2%; /* Ajusta la posición horizontal */
+        padding: 2px;
+    }
+
+}
+
+
+@media (max-width: 500px) { 
+    .texto-encima {
+        font-size: 13px; /* Reduce el tamaño del texto */
+        top: 30%; /* Ajusta la posición vertical */
+        left: 2%; /* Ajusta la posición horizontal */
+        padding: 2px;
+    }
+
+    h1 {
+        font-size: 18px; /* Reduce el tamaño del texto */
+        margin: 10px;
+    }
 }
