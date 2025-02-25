@@ -21,8 +21,8 @@
 
 @media (max-width: 480px) { 
     .buttonNav {
-        font-size: 12px; /* Reduce el tamaño del texto */
-        margin: 4px; /* Ajusta el margen */
+        font-size: 12px; 
+        margin: 4px; 
         font-weight:80;
     }
 }

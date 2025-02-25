@@ -103,7 +103,7 @@
   
   @media (max-width: 480px) { 
     .detail {
-        width: 90%; /* Reduce el ancho para que no desborde en pantallas pequeñas */
+        width: 90%; 
         padding: 10px;
         display: flex;
         flex-direction: column;

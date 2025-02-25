@@ -22,7 +22,7 @@ function App() {
   
 
   return (
-    <CartProvider> {/* Envolver toda la app con el contexto */}
+    <CartProvider> 
       <BrowserRouter>
         <NavBar />
         <Routes>

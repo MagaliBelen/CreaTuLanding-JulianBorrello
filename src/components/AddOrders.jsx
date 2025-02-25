@@ -20,7 +20,7 @@ export default function AddOrders({ buyer, items, total, onSuccess }) {
     try {
       const id = await sendOrder(newOrder);
       setOrderId(id);
-      onSuccess(id); // Notificar al componente padre que la orden fue exitosa
+      onSuccess(id); 
     } catch (error) {
       console.error('Error al enviar la orden:', error);
     }

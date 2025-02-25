@@ -11,7 +11,7 @@ cursor: pointer;
 
 @media (max-width: 480px) { 
     .logo {
-        width: 4em; /* Reduce el tamaño en móviles */
-        padding: 5px; /* Ajusta el padding si es necesario */
+        width: 4em; 
+        padding: 5px;
     }
 }

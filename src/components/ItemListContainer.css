@@ -1,8 +1,8 @@
 .products {
     display: flex;
-    flex-wrap: wrap; /* Permite que las tarjetas bajen cuando no hay espacio */
-    justify-content: center; /* Centra los elementos horizontalmente */
-    gap: 20px; /* Espacio entre las tarjetas */
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
     padding: 20px;
 }
 

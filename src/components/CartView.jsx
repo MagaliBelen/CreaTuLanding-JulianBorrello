@@ -1,96 +1,3 @@
-// import { useState } from "react";
-// import { useCart } from "../context/CartContext";
-// import { Link } from "react-router-dom";
-// import "./CartView.css";
-
-// export default function CartView() {
-//   const { cart, getTotalPrice, removeItem, clearCart } = useCart();
-//   const [showCheckout, setShowCheckout] = useState(false); // Estado para alternar la vista
-
-//   if (cart.length === 0) {
-//     return <h2 className="mensajeCarritoVacio">El carrito está vacío</h2>;
-//   }
-
-//   if (showCheckout) {
-//     return (
-//       <div className="checkout-form-container">
-
-
-//       <div className="checkout-form">
-//         <h2>Formulario de Checkout</h2>
-//         <form>
-//         {cart.map((item) => (
-//           <li key={item.id} className="cart-item">
-//             <img src={item.image} alt={item.title} className="cart-item-image" />
-//             <div className="cart-item-info">
-//               <h3>{item.title}</h3>
-//               <p>Precio: ${item.price}</p>
-//               <p>Cantidad: {item.quantity}</p>
-//               <p>Subtotal: ${item.price * item.quantity}</p>
-//               <button className="buttonClean" onClick={() => removeItem(item.id)}>Eliminar</button>
-//             </div>
-//           </li>
-//         ))}
-//           <h3 style={{ color: 'green', marginTop: '10px', marginBottom: '20px' }}>
-//           Total: ${getTotalPrice()}
-//           </h3>
-
-//           <label>
-//             Nombre:
-//             <input type="text" placeholder="Ingrese su nombre" required />
-//           </label>
-//           <label>
-//             Email:
-//             <input type="text" placeholder="Ingrese su email" required />
-//           </label>
-//           <label>
-//             Teléfono:
-//             <input type="tel" placeholder="Ingrese su teléfono" required />
-//           </label>
-//           <div className="buttonsCheckout">
-//           <button type="submit" className="buttonFinalize">Confirmar compra</button>
-//           <button type="button" onClick={() => setShowCheckout(false)} className="buttonClean">Volver al carrito</button>
-//           </div>
-//         </form>
-//       </div>
-//       </div>
-//     );
-//   }
-
-//   return (
-//     <div className="cart-view">
-//       <h2>Mi Carrito 🛒</h2>
-//       <ul>
-//         {cart.map((item) => (
-//           <li key={item.id} className="cart-item">
-//             <img src={item.image} alt={item.title} className="cart-item-image" />
-//             <div className="cart-item-info">
-//               <h3>{item.title}</h3>
-//               <p>Precio: ${item.price}</p>
-//               <p>Cantidad: {item.quantity}</p>
-//               <p>Subtotal: ${item.price * item.quantity}</p>
-//               <button className="buttonClean" onClick={() => removeItem(item.id)}>Eliminar</button>
-//             </div>
-//           </li>
-//         ))}
-//       </ul>
-//       <div className="total">
-//         <h3>Total: ${getTotalPrice()}</h3>
-//         <div className="buttons">
-//           <Link to="/">
-//             <button className="buttonContinueBuying">Seguir comprando</button>
-//           </Link>
-//           <button onClick={clearCart} className="buttonClean">Vaciar Carrito</button>
-//           <button onClick={() => setShowCheckout(true)} className="buttonFinalize">Finalizar compra</button>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-
-/////////////////////////////////////////////
-
 import { useState } from "react";
 import { useCart } from "../context/CartContext";
 import { Link } from "react-router-dom";
@@ -148,7 +55,7 @@ export default function CartView() {
     );
   }
 
-  // Si el carrito está vacío y no hay una orden generada
+  // Si el carrito está vacío y no hay una orden generada emite mensaje
   if (cart.length === 0) {
     return <h2 className="mensajeCarritoVacio">El carrito está vacío</h2>;
   }
