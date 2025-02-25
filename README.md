@@ -19,13 +19,7 @@ Responsive Design: Adaptado para una correcta visualización en dispositivos mó
 
 ### Proyecto en produccion
 
-[Cuisine Bazar](https://cuisinebazar.netlify.app/)
-
-## Vistas
-
-### Categorias
-
-![Vista de Categorias](https://user-images.githubusercontent.com/109805535/240902594-67fb723d-020e-4650-90eb-cfe4c4146275.png)
+[Aura Chic](https://aurachic.netlify.app/)
 
 
 ## Instala el proyecto
@@ -33,7 +27,6 @@ Responsive Design: Adaptado para una correcta visualización en dispositivos mó
 ```
 npm install
 npm run dev
-
 ```
 
 ## Magali Julian Borrello - 2025
